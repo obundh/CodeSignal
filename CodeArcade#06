@@ -1,0 +1,8 @@
+def makeArrayConsecutive2(statues):
+
+    value = ((max(statues) - min(statues)) + 1) - len(statues)
+    
+    return value
+    
+    
+// Received the top vote was remove the 'value' and only use return algorithm.
