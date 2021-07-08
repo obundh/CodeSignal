@@ -1,0 +1,12 @@
+def adjacentElementsProduct(inputArray):
+    maxValue=inputArray[1]*inputArray[0]
+    for idx, each in enumerate(inputArray):
+        if idx==0:
+            continue
+        else:
+            multiValue=inputArray[idx]*inputArray[idx-1]
+        if multiValue>maxValue:
+            maxValue=multiValue
+    return maxValue
+    
+    //Learned by https://leirbag.tistory.com/12
