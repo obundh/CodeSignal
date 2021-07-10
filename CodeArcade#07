@@ -55,3 +55,4 @@ def almostIncreasingSequence(sequence):
 
     return True 
    // not complete yet
+   // referred by https://chrisaor.github.io/algorithm/2018/01/29/Algorithm_AlmostIncreasingSequence.html
